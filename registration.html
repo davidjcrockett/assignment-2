@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Lexend Deca', sans-serif;
+      }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="/Users/davidjcrockett/CodeMERN/CodeMERN/Lab2/homepage.html"><h1>Skillspire</h1></a>
+    </div>
+    <div class="navbar">
+        <a href="#">Join Us</a>
+        <a href="#">Courses</a>
+        <a href="/Users/davidjcrockett/CodeMERN/CodeMERN/Lab2/registration.html">Register</a>
+        <a href="#">Feedback</a>
+      </div>
+
+      <div class = registration-form>
+        <h1> Skillspire Registration Form </h1>
+
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+            <label for="birthday">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday"> <br><br>
+
+            <label for="email">E-mail ID:</label><br>
+            <input type="text" id="email" name="email" value="yourname@mail.com"><br><br>
+
+            <label for="number">Mobile Number:</label><br>
+            <input type="text" id="number" name="number" value="(123) 456-7890"><br><br>
+
+            <label for="marital_status">Marital Status:</label><br>
+            <input type="radio" id="single" name="marital_status" value="Single">
+            <label for="single">Single</label><br>
+            <input type="radio" id="married" name="marital_status" value="Married">
+            <label for="married">Married</label><br><br>
+          
+            <label for="address">Address:</label><br>
+            <textarea name="address" rows="10" cols="30"></textarea><br><br>
+
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" ><br><br>
+
+            <label for="pin_code">Pin Code:</label><br>
+            <input type="text" id="pin_code" name="pin_code"><br><br>
+
+            <label for="state">State:</label><br>
+            <input type="text" id="state" name="state"><br><br>
+
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" name="country" value="USA"><br><br>
+
+            <label for="courses">Courses Applied For:</label><br>
+            <input type="checkbox" id="course1" name="course1" value="MERN">
+            <label for="course1"> MERN</label><br>
+            <input type="checkbox" id="course2" name="course2" value="Python">
+            <label for="course2"> Python</label><br>
+            <input type="checkbox" id="course3" name="course3" value="SQL">
+            <label for="course3"> SQL</label><br>
+            <input type="checkbox" id="course4" name="course4" value="JAVA">
+            <label for="course4"> JAVA</label><br>
+            <input type="checkbox" id="course5" name="course5" value="Other">
+            <label for="course5"> Other</label><input type="text" id="course5" name="course5"><br><br>
+
+            <!-- NEED TO WRITE HTML FOR EDUCATION -->
+
+            <label for="preferred_time">Preferred Timing:</label><br>
+            <input type="radio" id="morning" name="preferred_time" value="morning">
+            <label for="morning">Morning</label><br>
+            <input type="radio" id="noon" name="preferred_time" value="noon">
+            <label for="noon">Noon</label><br>
+            <input type="radio" id="evening" name="preferred_time" value="evening">
+            <label for="evening">Evening</label><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form> 
+<br>
+    </div>
+
+        <div class="footer">
+            <h6>© 2022 Skillspire LLC. All Rights Reserved.</h2>
+          </div>
+    </body>
+</html>
